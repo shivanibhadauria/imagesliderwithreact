@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 80vh;
+    width: 60vw;
+    position: relative;
+    margin: 80px;
+    
+}
+
+
+.arrow{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    filter: drop-shadow(0px 0px 0px #101010);
+    
+}
+
+.left{
+    left: 21rem;
+}
+
+.right{
+    right:  21rem;
+}
+
+.circle{
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+}
+.current-indicator{
+    background-color: rgb(244, 238, 238);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 100px 0.2rem;
+
+    cursor: pointer;
+}
+
+
+.img-hide{
+    display: none;
+}
+
+.inactive-indicator{
+    background-color: gray;
+}
